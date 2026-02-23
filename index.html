@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人信息可视化展示</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="background" aria-hidden="true">
+      <span class="bubble" style="--i: 1;"></span>
+      <span class="bubble" style="--i: 2;"></span>
+      <span class="bubble" style="--i: 3;"></span>
+      <span class="bubble" style="--i: 4;"></span>
+      <span class="bubble" style="--i: 5;"></span>
+      <span class="bubble" style="--i: 6;"></span>
+    </div>
+
+    <header class="hero">
+      <div class="avatar" aria-hidden="true">ZT</div>
+      <div class="hero-content">
+        <p class="tagline">你好，我是</p>
+        <h1>张天</h1>
+        <p class="role">数字产品设计师 · 前端探索者</p>
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>位置</h3>
+            <p>上海 · 中国</p>
+          </div>
+          <div class="info-card">
+            <h3>邮箱</h3>
+            <p>hello@targetit.com</p>
+          </div>
+          <div class="info-card">
+            <h3>兴趣</h3>
+            <p>视觉设计 / 动效 / 交互</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section reveal">
+        <h2>关于我</h2>
+        <p>
+          我喜欢把复杂的信息转化成清晰的视觉叙事，专注于让用户在每一次操作中都感受到轻盈、友好的体验。正在探索将
+          数据可视化、动效设计与工程实现结合起来的可能性。
+        </p>
+        <div class="chip-row">
+          <span class="chip">用户体验</span>
+          <span class="chip">原型搭建</span>
+          <span class="chip">动效设计</span>
+          <span class="chip">数据叙事</span>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2>关键数据</h2>
+        <div class="stats">
+          <div class="stat-card">
+            <span class="stat-number" data-count="5">0</span>
+            <span class="stat-label">年设计经验</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="32">0</span>
+            <span class="stat-label">主导项目</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="18">0</span>
+            <span class="stat-label">动效方案</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2>技能雷达</h2>
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-header">
+              <span>UI/UX 设计</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-bar" data-level="90%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-header">
+              <span>动效与视觉</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-bar" data-level="85%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-header">
+              <span>前端开发</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-bar" data-level="75%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2>里程碑</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-year">2021</span>
+            <div>
+              <h3>加入智能出行团队</h3>
+              <p>从零打造车载中控体验，建立动效与设计系统。</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2023</span>
+            <div>
+              <h3>视觉体系升级</h3>
+              <p>推动品牌视觉升级，落地到 20+ 业务场景。</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2025</span>
+            <div>
+              <h3>探索数据叙事</h3>
+              <p>用可视化方式讲述产品故事，让团队更快对齐目标。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>希望与你一起打造更有温度的产品体验 ✨</p>
+    </footer>
+  </body>
+</html>
