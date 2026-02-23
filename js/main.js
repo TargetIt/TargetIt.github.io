@@ -59,5 +59,8 @@ const statsObserver = new IntersectionObserver(
 );
 
 if (statNumbers.length > 0) {
-  statsObserver.observe(statNumbers[0].closest(".section"));
+  const statsSection = statNumbers[0].closest(".section");
+  if (statsSection) {
+    statsObserver.observe(statsSection);
+  }
 }
